@@ -36,6 +36,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         list.setAdapter(contacts);
 
         addButton.setOnClickListener(this);
+        list.setOnItemLongClickListener(this);
 
 
     }
